@@ -13,7 +13,6 @@ class Propuesto_1 {
         Scanner sc = new Scanner(System.in);
         int n = 0;
 
-        // Validamos que el tamaño del arreglo sea positivo
         while (true) {
             System.out.print("Ingrese el tamaño del arreglo (>0): ");
             n = sc.nextInt();
@@ -22,7 +21,6 @@ class Propuesto_1 {
         }
 
         int[] arr = new int[n];
-        // Llenamos el arreglo validando que se ingresen números enteros
         for (int i = 0; i < n; i++) {
             System.out.print("Ingrese el valor en la posición " + (i+1) + ": ");
             arr[i] = sc.nextInt();
