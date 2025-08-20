@@ -10,8 +10,6 @@ class Propuesto_2 {
                 System.out.print("Ingrese número " + (i+1) + ": ");
                 int num = sc.nextInt();
 
-                // Validación: el primer número puede ser cualquiera,
-                // los siguientes deben ser estrictamente mayores
                 if (i == 0 || num > arr[i-1]) {
                     arr[i] = num;
                     break;
