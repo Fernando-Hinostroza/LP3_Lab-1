@@ -15,7 +15,6 @@ class Propuesto_6 {
         System.out.print("Ingrese segundos (0-59): ");
         int s = sc.nextInt();
 
-        // Validaciones
         if (h < 0 || m < 0 || m >= 60 || s < 0 || s >= 60) {
             System.out.println("❌ Error: valores de tiempo no válidos.");
         } else {
