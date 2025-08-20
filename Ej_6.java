@@ -16,9 +16,9 @@ class Propuesto_6 {
         int s = sc.nextInt();
 
         if (h < 0 || m < 0 || m >= 60 || s < 0 || s >= 60) {
-            System.out.println("❌ Error: valores de tiempo no válidos.");
+            System.out.println("Error: valores de tiempo no válidos.");
         } else {
-            System.out.println("⏱ Equivalente en segundos: " + convertir(h, m, s));
+            System.out.println("Equivalente en segundos: " + convertir(h, m, s));
         }
     }
 }
