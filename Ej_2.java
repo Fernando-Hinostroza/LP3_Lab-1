@@ -14,12 +14,12 @@ class Propuesto_2 {
                     arr[i] = num;
                     break;
                 } else {
-                    System.out.println("❌ Error: debe ser mayor que " + arr[i-1]);
+                    System.out.println("Error: debe ser mayor que " + arr[i-1]);
                 }
             }
         }
 
-        System.out.println("✅ Arreglo final:");
+        System.out.println("Arreglo final:");
         for (int x : arr) System.out.print(x + " ");
     }
 }
