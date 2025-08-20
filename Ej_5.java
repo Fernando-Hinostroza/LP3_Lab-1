@@ -14,7 +14,7 @@ class Propuesto_5 {
         int horas = sc.nextInt();
 
         if (horas < 0) {
-            System.out.println("❌ Error: no se aceptan horas negativas.");
+            System.out.println("Error: no se aceptan horas negativas.");
         } else {
             System.out.println("El costo por " + horas + " horas es: S/" + tarifa(horas));
         }
