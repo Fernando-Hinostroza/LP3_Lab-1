@@ -17,7 +17,7 @@ class Propuesto_1 {
             System.out.print("Ingrese el tamaño del arreglo (>0): ");
             n = sc.nextInt();
             if (n > 0) break;
-            System.out.println("❌ Error: el tamaño debe ser mayor a 0.");
+            System.out.println("Error: el tamaño debe ser mayor a 0.");
         }
 
         int[] arr = new int[n];
