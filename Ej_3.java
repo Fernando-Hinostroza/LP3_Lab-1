@@ -6,11 +6,10 @@ class Propuesto_3 {
         Random rand = new Random();
 
         for (int i = 0; i < 20000; i++) {
-            int cara = rand.nextInt(6); // valores de 0 a 5
+            int cara = rand.nextInt(6);
             frecuencias[cara]++;
         }
 
-        // Validación: la suma de todas las frecuencias debe ser 20000
         int total = 0;
         for (int f : frecuencias) total += f;
 
